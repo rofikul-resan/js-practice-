@@ -18,6 +18,25 @@
 // }else if (student >= 80 && student <= 100 ){
 //     console.log('you gat A+');
 // }else{
-//     console.log('you gat F.. now everybody call yoû faltus');
+//     console.log('you gat F.. now everybody call yoû faltu');
 // }
-console.log( 6 = 6)
+// console.log(6 == 6)
+
+// using whale loop make odd and even array 
+
+var number= 0;
+var odd = [];
+var even =[];
+
+while (number <= 200) {
+    if (number%2 == 0 ) {
+        even.push( number)
+    }else{
+        odd.push(number)
+    }
+    number++
+}
+
+console.log( even);
+console.log( odd);
+
