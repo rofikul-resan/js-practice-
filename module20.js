@@ -88,4 +88,4 @@ function make_avg(num1, num2, num3){
     return resultAvg
 }
 
-console.log(make_avg(number1, number2, number3 ));
+// console.log(make_avg(number1, number2, number3 ));
